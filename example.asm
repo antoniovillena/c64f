@@ -16,7 +16,7 @@ start:  lda     #<commpressed
         cli
         rts
 
-        .include "dc64f.asm"
+        .include "dc64f_fast.asm"
 
 commpressed:
         .binary  "alice1k.c64f"

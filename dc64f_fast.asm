@@ -1,6 +1,5 @@
-        apd_src       = $f4
-        apd_bitbuffer = $f6
-        apd_lwm       = $f7
+        apd_bitbuffer = $f5
+        apd_src       = $f6
         apd_length    = $f8
         apd_offset    = $fa
         apd_source    = $fc
@@ -24,7 +23,7 @@ lenval: #getbit
         rol     apd_length+1
         #getbit
         bcc     lenval
-contie: adc     #$0
+contie: adc     #0
         sta     apd_length
         beq     exitdz
         lda     (apd_src), y
