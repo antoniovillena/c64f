@@ -10,7 +10,7 @@ https://github.com/svendahl/cap/blob/master/depack-6502.asm
 
         Length      Cycles
 slow    147 bytes   81124
-fast    266 bytes   57900
+fast    267 bytes   57900
 
 Created by Antonio José Villena Godoy, 2017
 Creative Commons Licensed by SA
